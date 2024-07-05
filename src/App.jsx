@@ -8,7 +8,7 @@ const App = () => {
   return (
    <>
     <h1>hello {name}</h1>
-    <p>The sum of {x} and {y} is this {x+y}</p>
+    <p>The sum of {x} and {y} is  {x+y}</p>
     <ul>
       {names.map((name, index) => (
         <li key={index}>{name}</li>
